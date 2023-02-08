@@ -13,7 +13,7 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-
+         drawer: Drawer(),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 45,horizontal: 32),
         child: Column(
